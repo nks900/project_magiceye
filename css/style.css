@@ -623,6 +623,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 	display:none;
 }
 
+
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
 	.hero-slider-warp {
@@ -633,6 +634,15 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .hero-slider {
 	height: 100%;
 }
+
+/* nks experiment section*/
+
+.hero-slider .owl-carousel .pa-text h2{
+	position: fixed;
+}
+
+
+
 
 .hero-slider .owl-stage-outer,
 .hero-slider .owl-stage,
